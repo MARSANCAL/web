@@ -8,5 +8,9 @@ import { Component } from '@angular/core';
 export class HomePage {
 
   constructor() {}
-
+  
+ redirigirADrive() {
+    var urlDrive = 'https://drive.google.com/drive/folders/1s0evPumgfK6cKLntwu8qjD8fZjvRSPXx';
+    window.location.href = urlDrive;
+  }
 }
